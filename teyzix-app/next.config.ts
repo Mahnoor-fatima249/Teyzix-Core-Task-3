@@ -1,10 +1,11 @@
+/** @type {import('next').NextConfig} */
 const nextConfig = {
   typescript: {
-    ignoreBuildErrors: true, // Yeh line build ke dauran kisi bhi type error ko ignore karegi
+    ignoreBuildErrors: true,
   },
   eslint: {
-    ignoreDuringBuilds: true, // Yeh linting errors ko ignore karegi
+    ignoreDuringBuilds: true,
   },
-};
+}
 
-module.exports = nextConfig;
+module.exports = nextConfig
