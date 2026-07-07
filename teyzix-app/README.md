@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 Teyzix Core Task - AI Invoice & QR Generator
 
-## Getting Started
+A modern, automated system for managing invoices and generating QR codes, built with Next.js and powered by AI.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📊 Project Overview
+| Feature | Status | Technology |
+| :--- | :--- | :--- |
+| **AI Integration** | ✅ Live | Groq API |
+| **PDF Generation** | ✅ Live | jsPDF |
+| **QR Generation** | ✅ Live | qrcode.react |
+| **Deployment** | 🚀 Ready | Vercel |
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🎨 Unique Features
+- **Smart AI Processing:** Uses Groq to generate intelligent invoice data.
+- **Instant PDF Export:** One-click download for professional invoices.
+- **Responsive UI:** Clean, minimalist design optimized for mobile and desktop.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 💡 How It Works
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Input:** Enter your booking details into the interface.
+2. **AI Processing:** The backend communicates with Groq to validate data.
+3. **Rendering:** The system generates a custom QR code and a printable PDF invoice.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠 Tech Stack
+- **Framework:** Next.js (App Router)
+- **Styling:** Tailwind CSS
+- **AI Engine:** Groq API
+- **Utilities:** jsPDF, qrcode.react
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌟 Future Roadmap
+- [ ] Add User Authentication (Clerk/NextAuth).
+- [ ] Multi-language support for invoices.
+- [ ] Analytics dashboard for tracking bookings.
+
+---
+*Built with ❤️ by Mahnoor Fatima | BSIT 6th Semester*
