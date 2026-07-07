@@ -1,4 +1,4 @@
-import jsPDF from 'jspdf';
+import { jsPDF } from 'jspdf';
 import React from 'react';
 
 export default function InvoiceAndQR({ bookingId }: { bookingId: string }) {
